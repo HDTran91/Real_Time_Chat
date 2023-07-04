@@ -21,7 +21,8 @@ export const transSuccess  ={
     account_active:"kich hoat tai khoan thanh cong, ban co the dang nhap vao ung dung",
     loginSuccess: (username) =>{
         return `Xin chao ${username}, chuc ban mot ngay tot lanh `;
-    }
+    },
+    logout_success: "dang xuat tai khoan thanh cong. hen gap lai cac ban"
 }
 
 export const transMail ={
