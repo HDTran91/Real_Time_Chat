@@ -16,3 +16,8 @@ export MAIL_USER=khoaiga0103@gmail.com
 export MAIL_PASSWORD=bavdeqxublgytite
 export MAIL_HOST=smtp.gmail.com
 export MAIL_PORT=587
+
+#config facebook login app
+export FB_APP_ID=801382054852813
+export FB_APP_SECRET=3eb4e316c4050a27fe9acfdb9d94f2e0
+export FB_CALLBACK_URL=http://localhost:8017/auth/facebook/callback
