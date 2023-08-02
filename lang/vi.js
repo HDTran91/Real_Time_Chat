@@ -11,7 +11,9 @@ export const transError = {
     account_not_active: "Email nay da dc dang ki nhung chua active, vui long kiem tra email hoac lien he voi bo phan ho tro cua chung toi.",
     token_undefined: "Token ko ton tai",
     login_failed: "sai tai khoan hoac mat khau",
-    server_error: "co loi o phia server, vui long lien he voi bo phan ho tro cua chung toi de bao cao loi nay, xin cam on"
+    server_error: "co loi o phia server, vui long lien he voi bo phan ho tro cua chung toi de bao cao loi nay, xin cam on",
+    avatar_type: "kieu file khong hop le, chi chap nhan jpg & png",
+    avatar_size: "anh upload toi da cho phep la 1MB"
 };
 
 export const transSuccess  ={
@@ -22,7 +24,8 @@ export const transSuccess  ={
     loginSuccess: (username) =>{
         return `Xin chao ${username}, chuc ban mot ngay tot lanh `;
     },
-    logout_success: "dang xuat tai khoan thanh cong. hen gap lai cac ban"
+    logout_success: "dang xuat tai khoan thanh cong. hen gap lai cac ban",
+    avatar_updated: "cap nhat anh dai dien thanh cong"
 }
 
 export const transMail ={
