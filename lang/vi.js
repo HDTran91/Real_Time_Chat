@@ -6,7 +6,8 @@ export const transValidation ={
     update_username: "Username gioi han trong khoang 3-17 ki tu va ko dc phep chua ki tu dac biet",
     update_gender: "Du lieu gioi tinh co van de",
     update_address: "dia chi gioi han trong khoang 3-30 ki tu",
-    update_phone: "so dien thoai viet nam bat dau bang so 0, gioi han trong khoang 10-11 ki tu"
+    update_phone: "so dien thoai viet nam bat dau bang so 0, gioi han trong khoang 10-11 ki tu",
+    keyword_find_user:"loi tu khoa tim kiem"
 };
 
 export const transError = {
