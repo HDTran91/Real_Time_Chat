@@ -23,6 +23,7 @@
     "body-parser": "^1.18.2",
     "connect-flash": "^0.1.1",
     "connect-mongo": "^2.0.1",
+    "cookie-parser": "^1.4.4",
     "ejs": "^2.5.7",
     "express": "^4.18.2",
     "express-ejs-extend": "^0.0.1",
@@ -39,6 +40,8 @@
     "passport-google-oauth2": "^0.2.0",
     "passport-google-oauth20": "^2.0.0",
     "passport-local": "^1.0.0",
+    "passport.socketio": "^3.7.0",
+    "socket.io": "^2.2.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
