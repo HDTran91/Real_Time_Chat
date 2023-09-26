@@ -254,7 +254,7 @@ label:focus,
   z-index: 999;
 }
 
-#notifications h3 {
+#popup-mark-notif-as-read {
   display: block;
   color: #333;
   background: #FFF;
@@ -308,19 +308,20 @@ label:focus,
 }
 
 .noti_content {
-  position: relative;
   height: 200px;
   background-color: #fff;
   overflow: auto;
   
 }
 
-.noti_content>span {
-  position: absolute;
+.noti_content>div {
   max-width: 95%;
-  margin-top: 5px;
-  margin-left: 7px;
+  margin: 5px 0px 0px 7px;
   color: #333;
+  padding: 5px;
+}
+.noti_content>div:hover {
+  cursor:pointer;
 }
 
 .seeAll {
@@ -1287,4 +1288,8 @@ label:focus,
 }
 .display-none {
   display:none
+}
+
+#noti_button {
+  text-decoration: none;
 }
