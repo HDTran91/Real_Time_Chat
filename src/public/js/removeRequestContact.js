@@ -11,6 +11,7 @@ function removeRequestContact() {
                     $("#find-user").find(`div.user-remove-request-contact[data-uid = ${targetId}]`).hide()
                     $("#find-user").find(`div.user-add-new-contact[data-uid = ${targetId}]`).css("display", "inline")           
                     decreaseNumberNotifContact("count-request-contact-sent")
+                    socket.emit("remove-request-contact", {contactId:targetId});
                 }
             }
 
