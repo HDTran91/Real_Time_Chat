@@ -77,7 +77,7 @@ function configNotification() {
     $('.noti_counter').fadeOut('slow');
     return false;
   });
-  $(document).click(function() {
+  $(".main-content").click(function() {
     $('#notifications').fadeOut('fast', 'linear');
   });
 }
@@ -150,7 +150,7 @@ function flashMasterNotify(){
   }
 }
 
-$(document).ready(function() {
+$("document").ready(function() {
   // Hide số thông báo trên đầu icon mở modal contact
   showModalContacts();
 
