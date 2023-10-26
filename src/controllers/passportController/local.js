@@ -32,7 +32,7 @@ let InitPassportLocal = () => {
             
         }catch(error){
             console.log(error);
-            return(done(null, false, req.flash("error",transError.server_error)))
+            return(done(null, false, req.flash("errors",transError.server_error)))
         }
     }));
 

@@ -224,7 +224,7 @@ function callUpdateUserInfo() {
             originUserInfo = Object.assign(originUserInfo, userInfo);
 
             //update username at navbar
-            $("#navbar-username").text(originuserInfo.username)
+            $("#navbar-username").text(originUserInfo.username)
             //reset all
             $("input-btn-cancel-update-user").click();
         },
